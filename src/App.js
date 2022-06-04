@@ -23,7 +23,7 @@ function App() {
             Send specified test action to the PubNub guided demo system
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Send a message')}>Complete 'Send a message'</Button>
+            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 1')}>Complete 'Test Action 1'</Button>
           </Row>
           <Row className="m-1">
             <Button variant="primary" onClick={(event) => actionCompleted('Test Action 2')}>Complete 'Test Action 2'</Button>

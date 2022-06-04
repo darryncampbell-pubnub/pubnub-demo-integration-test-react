@@ -1,9 +1,9 @@
 {
     "features": [
-      "Send a message",
+      "Test Action 1",
       "Test Action 2",
       "Test Action 3",
       "Test Action 4",
       "Test Action 5"
     ]
-  }
+}
