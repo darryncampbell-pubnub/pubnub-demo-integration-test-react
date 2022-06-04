@@ -31,5 +31,5 @@ The features defined in this file must match the actions passed into the [pubnub
 
 `GuidedDemoIntegration.actionCompleted('Test Action 1');`
 
-![Screenshot](https://github.com/darryncampbell-pubnub/pubnub-demo-integration-test-react/raw/main/media/screenshot_01.png)
+![Screenshot](https://raw.githubusercontent.com/darryncampbell-pubnub/pubnub-demo-integration-test-react/main/media/screenshot_1.png)
 
