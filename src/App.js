@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from 'react-bootstrap/Button'
 import { Container, Row, Col } from 'react-bootstrap';
-import GuidedDemoIntegration from "pubnub-demo-integration-react";
+import {actionCompleted} from "pubnub-demo-integration-react";
 
 function App() {
 
-  const actionCompleted = (arg1) => {
-    GuidedDemoIntegration.actionCompleted(arg1);
+  const clickHandler = (arg1) => {
+    actionCompleted(arg1);
   };
 
   return (
@@ -23,19 +23,19 @@ function App() {
             Send specified test action to the PubNub guided demo system
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 1')}>Complete 'Test Action 1'</Button>
+            <Button variant="primary" onClick={(event) => clickHandler('Test Action 1')}>Complete 'Test Action 1'</Button>
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 2')}>Complete 'Test Action 2'</Button>
+            <Button variant="primary" onClick={(event) => clickHandler('Test Action 2')}>Complete 'Test Action 2'</Button>
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 3')}>Complete 'Test Action 3'</Button>
+            <Button variant="primary" onClick={(event) => clickHandler('Test Action 3')}>Complete 'Test Action 3'</Button>
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 4')}>Complete 'Test Action 4'</Button>
+            <Button variant="primary" onClick={(event) => clickHandler('Test Action 4')}>Complete 'Test Action 4'</Button>
           </Row>
           <Row className="m-1">
-            <Button variant="primary" onClick={(event) => actionCompleted('Test Action 5')}>Complete 'Test Action 5'</Button>
+            <Button variant="primary" onClick={(event) => clickHandler('Test Action 5')}>Complete 'Test Action 5'</Button>
           </Row>
         </Col>
       </Container>
