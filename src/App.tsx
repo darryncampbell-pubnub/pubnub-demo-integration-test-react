@@ -9,11 +9,11 @@ import {actionCompleted, containsEmoji} from "pubnub-demo-integration-react/buil
 function App() {
 
   const clickHandlerAction = (arg1: string) => {
-    actionCompleted(arg1, true);
+    actionCompleted({action:arg1, blockDuplicateCalls:false, debug:true});
   };
 
   const clickHandlerEmoji = (arg1: string) => {
-    containsEmoji(arg1, true);
+    containsEmoji({testString:arg1, debug:true});
   };
 
 
