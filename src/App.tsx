@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button'
 import { Container, Row, Col } from 'react-bootstrap';
 
-import {actionCompleted, containsEmoji} from "pubnub-demo-integration-react/build"
+import {actionCompleted, containsEmoji} from "pubnub-demo-integration"
 
 function App() {
 
