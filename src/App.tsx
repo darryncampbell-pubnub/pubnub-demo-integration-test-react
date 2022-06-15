@@ -9,7 +9,7 @@ import {actionCompleted, containsEmoji} from "pubnub-demo-integration"
 function App() {
 
   const clickHandlerAction = (arg1: string) => {
-    actionCompleted({action:arg1, blockDuplicateCalls:false, debug:true});
+    actionCompleted({action:arg1, blockDuplicateCalls:true, debug:true});
   };
 
   const clickHandlerEmoji = (arg1: string) => {
