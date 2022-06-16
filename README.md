@@ -27,9 +27,9 @@ This application defines 5 test actions that make up the demo.  The actions are 
 }
 ```
 
-The features defined in this file must match the actions passed into the [pubnub-demo-integration-react](https://github.com/darryncampbell-pubnub/pubnub-demo-integration-test-react) module, i.e.:
+The features defined in this file must match the actions passed into the [pubnub-demo-integration](https://github.com/darryncampbell-pubnub/pubnub-demo-integration) module, i.e.:
 
-`GuidedDemoIntegration.actionCompleted('Test Action 1');`
+`actionCompleted('Test Action 1');`
 
 ![Screenshot](https://raw.githubusercontent.com/darryncampbell-pubnub/pubnub-demo-integration-test-react/main/media/screenshot_1.png)
 
